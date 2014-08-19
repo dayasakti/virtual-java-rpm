@@ -8,6 +8,8 @@ This package does just that + requires 'jdk' in order to work around this bug - 
 
 The official package does install _/usr/bin/java_ (as a symlink), but does not add an _alternative_ which means it cannot properly coexist with other installations. This is also remedied here.
 
+This package provides 'java-devel' and 'java'
+
 Requirements
 ------------
 In order to build this package you need _make_ and _rpmdevtools_ (rpmbuild):
