@@ -3,12 +3,12 @@ virtual-java-rpm
 
 Virtual package 'overlay' for Oracle JDK
 
-The official JDK package does not provide 'java' ( _Provides: java_ ).
-This package does just that + requires 'jdk' in order to work around this bug - nothing else.
+The official JDK package does not provide 'java-devel'.
+This package does just that + requires 'java-1.8.0' in order to work around this bug - nothing else.
 
 The official package does install _/usr/bin/java_ (as a symlink), but does not add an _alternative_ which means it cannot properly coexist with other installations. This is also remedied here.
 
-This package provides 'java-devel' and 'java'
+This package provides 'java-devel' and other keywords which java-1.8.0-openjdk and java-1_8_0-openjdk-devel provides 
 
 Requirements
 ------------
