@@ -1,5 +1,5 @@
 VERSION=1.7
-RELEASE=3
+RELEASE=4
 RPMNAME=virtual-java-$(VERSION)-$(RELEASE).noarch.rpm
 
 .PHONY: all
